@@ -32,3 +32,4 @@ E:\MyDemo\WPF\WpfApp1\WpfApp1\obj\Debug\WindowReadOnly.baml
 E:\MyDemo\WPF\WpfApp1\WpfApp1\obj\Debug\WindowReadOnly.g.cs
 E:\MyDemo\WPF\WpfApp1\WpfApp1\obj\Debug\WindowBindData.baml
 E:\MyDemo\WPF\WpfApp1\WpfApp1\obj\Debug\WindowBindData.g.cs
+D:\WPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
