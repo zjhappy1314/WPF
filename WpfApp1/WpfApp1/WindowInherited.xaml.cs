@@ -41,8 +41,7 @@ namespace WpfApp1
 
         private void btnTextBlock_Click( object sender, RoutedEventArgs e )
         {
-            this.textBlockInherited.FontSize = Convert.ToInt32( drpTxtFontSize.Text );
-            
+            this.textBlockInherited.FontSize = Convert.ToInt32( drpTxtFontSize.Text );            
         }
     }
 }

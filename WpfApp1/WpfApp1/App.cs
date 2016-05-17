@@ -13,6 +13,7 @@ namespace WpfApp1
         static void Main()
         {
             //定义Application对象作为整个应用程序入口
+            //我修改的啥玩意？不知道
             Application app = new Application();
 
             #region 方法一：调用run方法，这种方式和winform的调用一样
