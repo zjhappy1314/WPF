@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApp1.WindowReadOnly"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WindowReadOnly" Height="300" Width="300">
+    <Grid>
+        <Viewbox>
+            <TextBlock Text="{Binding ElementName=winReadOnly,Path=Counter}"></TextBlock>
+        </Viewbox>
+    </Grid>
+</Window>

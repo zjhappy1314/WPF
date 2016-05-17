@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="363" Width="710">
+    <Grid Margin="0,0,0,0">
+        <Label Content="我是Window1" FontSize="50" HorizontalAlignment="Left" Margin="19,20,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.7,-0.731"/>
+
+
+    </Grid>
+</Window>

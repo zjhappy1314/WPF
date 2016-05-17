@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.WindowInherited"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WindowInherited" Height="400" Width="500" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="101*"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Label Content="继承自Window的FontSize"></Label>
+            <TextBlock Name="textBlockInherited" Text="重写了继承，没有继承Window的FontSize" FontSize="36" TextWrapping="WrapWithOverflow"></TextBlock>
+            <StatusBar>没有继承自Window的FontSize，Statusbar</StatusBar>
+        </StackPanel>
+        <WrapPanel Grid.Row="1">
+            <Label Content="窗体字体大小"></Label>
+            <ComboBox Name="drpWinFontSize"></ComboBox>
+            <Button Name="btnFontSize" Click="btnFontSize_Click">改变window字体</Button>
+        </WrapPanel>
+        <WrapPanel Grid.Row="2">
+            <Label Content="文本字体大小"></Label>
+            <ComboBox Name="drpTxtFontSize"></ComboBox>
+            <Button Name="btnTextBlock" Click="btnTextBlock_Click">改变字体TextBlock字体</Button>
+        </WrapPanel>
+    </Grid>
+</Window>
